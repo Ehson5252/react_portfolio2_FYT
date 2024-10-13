@@ -113,3 +113,12 @@
         width: 20px;
     }
 }
+
+
+
+@media(max-width: 500px){
+    .services-container{
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+}
