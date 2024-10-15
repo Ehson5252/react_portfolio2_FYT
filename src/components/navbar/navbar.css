@@ -100,3 +100,11 @@
         gap: 20px;
     }
 }
+
+
+@media(max-width: 500px){
+    .navbar{
+        margin: auto;
+        width: 90%;
+    }
+}

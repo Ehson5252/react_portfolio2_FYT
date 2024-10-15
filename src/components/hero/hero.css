@@ -123,3 +123,10 @@
         border-radius: 40px;
     }
 }
+
+@media(max-width: 500px){
+    .hero{
+        margin: auto;
+        width: 90%;
+    }
+}

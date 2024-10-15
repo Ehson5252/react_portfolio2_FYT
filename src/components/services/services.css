@@ -122,3 +122,11 @@
         gap: 30px;
     }
 }
+
+
+@media(max-width: 500px){
+    .services{
+        margin: auto;
+        width: 90%;
+    }
+}

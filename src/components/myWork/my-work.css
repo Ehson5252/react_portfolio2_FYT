@@ -92,3 +92,11 @@
         cursor: pointer;
     }
 }
+
+
+@media(max-width: 500px){
+    .mywork{
+        margin: auto;
+        width: 90%;
+    }
+}

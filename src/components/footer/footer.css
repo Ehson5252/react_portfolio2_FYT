@@ -9,8 +9,11 @@
     display: flex;
     justify-content: space-between;
 }
-
+/* .footer-top-left .logo{
+    width: 100px;
+} */
 .footer-top-left p{
+    margin-top: 20px;
     font-size: 20px;
     max-width: 400px;
 }
@@ -87,4 +90,11 @@
         margin-bottom: 50px;
     }
 
+}
+
+@media(max-width: 500px){
+    .footer{
+        margin: auto;
+        width: 90%;
+    }
 }
