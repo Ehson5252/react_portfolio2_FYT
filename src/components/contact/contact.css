@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     gap: 80px;
-    margin: 80px 170px;
+    margin: 80px 10%;
 }
 
 .contact-title{
@@ -131,7 +131,7 @@
 @media(max-width: 768px){
     .contact{
         gap: 50px;
-        margin: 50px 70px;
+        margin: 50px 6%;
         align-items: start;
     }
 

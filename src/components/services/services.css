@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     gap: 80px;
-    margin: 80px 170px;
+    margin: 80px 10%;
 }
 
 .services-title {
@@ -80,7 +80,7 @@
 @media(max-width: 768px){
     .services{
         gap: 70px;
-        margin: 20px 70px;
+        margin: 20px 6%;
         align-items: start;
     }
 
@@ -121,12 +121,10 @@
         grid-template-columns: 1fr;
         gap: 30px;
     }
-}
-
-
-@media(max-width: 500px){
     .services{
         margin: auto;
         width: 90%;
     }
 }
+
+

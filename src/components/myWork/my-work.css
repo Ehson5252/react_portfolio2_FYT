@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     gap: 80px;
-    margin: 80px 170px;
+    margin: 180px 10%;
 }
 
 .mywork-title{
@@ -24,21 +24,24 @@
 }
 
 .mywork-container{
+    /* margin: 510px; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 40px;
 }
 
 .mywork-container img {
-    box-sizing: border-box;
-    width: 419px;
-    height: 280px;
+    width: 100%;
+    object-fit: scale-down;
+    border: 2px solid rgb(3, 3, 90);
+    border-radius: 20px;
+    height: 90%;
+    background-color: rgb(170, 175, 179);
     cursor: pointer;
     transition: 0.3s;
 }
 .mywork-container img:hover{
     transform: scale(1.1);
-    /* border: 4px solid rgb(18, 1, 250); */
     box-shadow: 1px 1px 10px 5px blue;
     border-radius: 10px;
 }
@@ -64,7 +67,7 @@
 @media(max-width: 768px){
     .mywork{
         gap: 50px;
-        margin: 50px 70px;
+        margin: 50px 6%;
         align-items: start;
     }
 
@@ -95,7 +98,7 @@
 
 
 @media(max-width: 500px){
-    .mywork{
+    .mywork {
         margin: auto;
         width: 90%;
     }

@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px 170px;
+    margin: 20px 10%;
 }
 
 .logo{
@@ -62,7 +62,7 @@
 
 @media(max-width:768px){
     .navbar{
-        margin: 20px 50px;
+        margin: 20px 6%;
     }
     .nav-connect{
         display: none;
@@ -70,7 +70,7 @@
     .nav-mob-open{
         display: block;
         position: fixed;
-        right: 30px;
+        right: 20px;
     }
     .nav-mob-close{
         display: block;
@@ -106,5 +106,9 @@
     .navbar{
         margin: auto;
         width: 90%;
+    }
+
+    .nav-mob-open{
+        right: 15px;
     }
 }

@@ -108,6 +108,12 @@
 }
 
 @media(max-width: 500px){
+
+    .hero{
+        margin: auto;
+        width: 90%;
+    }
+    
     .hero-action{
         gap: 10px;
         font-size: 12px;
@@ -124,9 +130,3 @@
     }
 }
 
-@media(max-width: 500px){
-    .hero{
-        margin: auto;
-        width: 90%;
-    }
-}
