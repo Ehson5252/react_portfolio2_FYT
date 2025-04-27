@@ -22,7 +22,7 @@ const Footer = () => {
         </div>
         <hr />
         <div className="footer-bottom">
-            <p className="footer-bootom-left">&copy; 2024 Ekhsoni Olimzoda. All right reserved.</p>
+            <p className="footer-bootom-left">&copy; 2025 Ekhsoni Olimzoda. All right reserved.</p>
             <div className="footer-bottom-right">
                 <p>Term of Serveces</p>
                 <p>Privacy policy</p>
