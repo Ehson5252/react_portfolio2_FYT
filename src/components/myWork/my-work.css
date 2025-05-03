@@ -27,8 +27,19 @@
     /* margin: 510px; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 40px;
+    gap: 2.5%;
 }
+
+.mywork-container .project {
+    position: relative;
+
+}
+.mywork-container .project:hover  .nameOfProject{
+    visibility: visible;
+
+
+}
+
 
 .mywork-container img {
     width: 100%;
@@ -36,15 +47,30 @@
     border: 2px solid rgb(3, 3, 90);
     border-radius: 20px;
     height: 90%;
-    background-color: rgb(170, 175, 179);
+    /* background-color: rgba(32, 155, 255, 0.3); */
     cursor: pointer;
     transition: 0.3s;
 }
-.mywork-container img:hover{
+.mywork-container .project:hover img{
     transform: scale(1.1);
     box-shadow: 1px 1px 10px 5px blue;
     border-radius: 10px;
+    filter: blur(2px) brightness(40%);
 }
+
+/* .mywork-container img:hover ~ .nameOfProject{
+    visibility: visible;
+} */
+
+.mywork-container .nameOfProject {
+    font-weight: 500;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    visibility: hidden;
+    /* color: red; */
+}
+
 
 .mywork-showmore{
     display: flex;
