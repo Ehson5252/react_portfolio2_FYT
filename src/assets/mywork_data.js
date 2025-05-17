@@ -7,19 +7,27 @@ import project6_img from '../assets/project_6.svg'
 
 const mywork_data = [
     {
-        w_no:1,
-        w_name:"Wix | Outdoor Services",
-        w_img:project1_img
+        role: "FULL STUCK | WIX",
+        w_no: 1,
+        w_name:"Laster Lawn and Outdoor Services LLC",
+        w_img: project1_img,
+        technologies: "Wix, Web Design, Responsive Design, User Experience Design, Wix SEO Wiz",
+        link: "https://www.lasteroutdoorservices.com/",
     },
     {
-        w_no:2,
+        role: "FULL STUCK | OWNER   ",
+        w_no: 2,
         w_name:"ElkEnglish - learn English words",
-        w_img:project2_img
+        w_img: project2_img,
+        technologies: "JavaScript, HTML, CSS, Hostinger, Responsive Design, User Experience Design,",
+        link: "https://elkenglish.net/",
     },
     {
+        role: "FRONT-END | REACT.JS",
         w_no:3,
-        w_name:"Web design",
-        w_img:project3_img
+        w_name:"Little Lemon",
+        w_img:project3_img,
+        technologies: "React.js JavaScript, Figma, HTML, CSS, UI, UX"
     },
     // {
     //     w_no:4,
