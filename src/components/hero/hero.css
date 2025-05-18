@@ -61,13 +61,18 @@
     background-color:  rgb(6, 2, 58);
 }
 
-.hero-resume{
+.hero-resume {
     font-size: 22px;
     padding: 20px 70px;
     border-radius: 50px;
     border: 2px solid rgb(241, 205, 0);
     cursor: pointer;
     transition: 0.15s;
+}
+.hero-resume a {
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
 }
 .hero-resume:hover{
     transform: scale(1.05);

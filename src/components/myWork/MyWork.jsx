@@ -16,8 +16,7 @@ const MyWork = () => {
                 return (<div className="project">
                     <img key={index} src={work.w_img} alt="" /> 
                     <div className='infoOfProject'>
-                        <h2>{work.role}</h2>
-                        <br/>
+                        <h2 className='role'>{work.role}</h2>
                         <h2 className='nameOfProject'>{work.w_name}</h2>
                         <br/>
                         <p>Technologies:</p>

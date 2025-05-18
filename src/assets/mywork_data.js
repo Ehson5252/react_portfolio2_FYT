@@ -1,7 +1,7 @@
 import project1_img from '../assets/1.webp'
 import project2_img from '../assets/2.png'
 import project3_img from '../assets/3.png'
-import project4_img from '../assets/project_4.svg'
+import project4_img from '../assets/4.webp'
 import project5_img from '../assets/project_5.svg'
 import project6_img from '../assets/project_6.svg'
 
@@ -27,7 +27,17 @@ const mywork_data = [
         w_no:3,
         w_name:"Little Lemon",
         w_img:project3_img,
-        technologies: "React.js JavaScript, Figma, HTML, CSS, UI, UX"
+        technologies: "React.js JavaScript, Figma, HTML, CSS, UI, UX",
+        link: "https://github.com/Ehson5252/little_lemon"
+    },
+
+    {
+        role: "FULL STUCK | WORDPRESS",
+        w_no: 4,
+        w_name:"ElkShop – Buy anything online",
+        w_img: project4_img,
+        technologies: "WordPress, WooCommerce, Elementor, Web Development, Web Design, Responsive Design, HTML, CSS",
+        link: "https://first.elkenglish.net/",
     },
     // {
     //     w_no:4,
