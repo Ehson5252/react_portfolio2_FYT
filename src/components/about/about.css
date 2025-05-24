@@ -26,6 +26,7 @@
 .about-sections{
     display: flex;
     gap: 80px;
+    align-items: center;
 }
 
 
@@ -41,19 +42,19 @@
 .about-right{
     display: flex;
     flex-direction: column;
-    gap: 80px;
+    gap: 60px;
 }
 .about-para{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    font-size: 24px;
-    font-weight: 500;
+    font-size: 22px;
+    font-weight: 400;
 }
 .about-skills{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 18px;
 }
 .about-skill{
     display: flex;

@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px 10%;
+    margin: 20px 8%;
 }
 
 .logo{
@@ -13,7 +13,7 @@
     display: flex;
     align-items: center;
     list-style: none;
-    gap: 60px;
+    gap: 3vw;
     font-size: 20px;
 }
 .nav-menu li{
@@ -58,6 +58,13 @@
 }
 .nav-mob-open{
     display: none;
+}
+
+@media(max-width:900px){
+    .navbar{
+        margin: 20px 4%
+    }
+
 }
 
 @media(max-width:768px){
